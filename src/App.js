@@ -1,8 +1,6 @@
-import './App.css';
-import HomePage from './pages/HomePage';
 import React from 'react';
 import { HashRouter as Router } from 'react-router-dom';
-
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -12,3 +10,4 @@ function App() {
   );
 }
 
+export default App;  // Make sure this line is present
